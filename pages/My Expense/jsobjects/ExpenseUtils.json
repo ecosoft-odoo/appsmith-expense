@@ -6,11 +6,11 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\todoo_url: \"128.199.141.217:8069\",\n\tex_journal_id: 12, // expense journal, 12\n\tex_type: \"in_invoice\",\n\tex_account_id: 406,  // default expense account\n\tex_tax_id: 25, // undue included input vat\n\tex_uom_id: 1, // undue included input vat\n\tex_seq_code: \"appsmith.expense\",\n\n\tcreate_expense: async () => {\n\t\tawait get_next_number.run();\n\t\tawait create_expense_invoice.run();\n\t\tawait get_expense_invoice.run();\n\t\tawait closeModal(\"CreateExpenseModal\");\n\t},\n\t\n\tdelete_expense: async () => {\n\t\tawait delete_expense_invoice.run();\n\t\tawait get_expense_invoice.run();\n\t\tawait closeModal(\"DeleteExpenseModal\");\n\t},\n\t\n\t//myVar1: [],\n\t//myVar2: {},\n\t//myFun1: () => {\n\t\t//write code here\n\t//},\n\t//myFun2: async () => {\n\t\t//use async-await or promises\n\t//}\n\t//employees: async () => {\n\t//\tget_employee_contact.run()\n\t//}\n}",
+    "body": "export default {\n\todoo_url: \"128.199.141.217\",\n\tex_journal_id: 12, // expense journal, 12\n\tex_type: \"in_invoice\",\n\tex_account_id: 406,  // default expense account\n\tex_tax_id: 25, // undue included input vat\n\tex_uom_id: 1, // undue included input vat\n\tex_seq_code: \"appsmith.expense\",\n\n\tcreate_expense: async () => {\n\t\tawait get_next_number.run();\n\t\tawait create_expense_invoice.run();\n\t\tawait get_expense_invoice.run();\n\t\tawait closeModal(\"CreateExpenseModal\");\n\t},\n\t\n\tdelete_expense: async () => {\n\t\tawait delete_expense_invoice.run();\n\t\tawait get_expense_invoice.run();\n\t\tawait closeModal(\"DeleteExpenseModal\");\n\t},\n\t\n\t//myVar1: [],\n\t//myVar2: {},\n\t//myFun1: () => {\n\t\t//write code here\n\t//},\n\t//myFun2: async () => {\n\t\t//use async-await or promises\n\t//}\n\t//employees: async () => {\n\t//\tget_employee_contact.run()\n\t//}\n}",
     "variables": [
       {
         "name": "odoo_url",
-        "value": "\"128.199.141.217:8069\""
+        "value": "\"128.199.141.217\""
       },
       {
         "name": "ex_journal_id",
