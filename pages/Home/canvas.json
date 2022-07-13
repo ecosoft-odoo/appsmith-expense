@@ -187,7 +187,7 @@
                       "bottomRow": 37,
                       "fieldLimitExceeded": false,
                       "parentRowSpace": 10,
-                      "title": "Expenses",
+                      "title": "Expense",
                       "type": "JSON_FORM_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
