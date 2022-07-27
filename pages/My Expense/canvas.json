@@ -2552,7 +2552,7 @@
                               "isCustomField": false,
                               "accessor": "ref",
                               "identifier": "ref",
-                              "position": 3,
+                              "position": 2,
                               "originalIdentifier": "ref",
                               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -2714,7 +2714,7 @@
                               "isCustomField": false,
                               "accessor": "invoice_line_ids",
                               "identifier": "invoice_line_ids",
-                              "position": 7,
+                              "position": 3,
                               "originalIdentifier": "invoice_line_ids",
                               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -2738,7 +2738,7 @@
                               "isCustomField": true,
                               "accessor": "narration",
                               "identifier": "customField1",
-                              "position": 8,
+                              "position": 4,
                               "originalIdentifier": "customField1",
                               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -2750,6 +2750,32 @@
                               "isVisible": true,
                               "labelTextSize": "0.875rem",
                               "label": "Summary"
+                            },
+                            "customField2": {
+                              "children": {},
+                              "dataType": "string",
+                              "fieldType": "Datepicker",
+                              "sourceData": "",
+                              "isCustomField": true,
+                              "accessor": "date",
+                              "identifier": "customField2",
+                              "position": 1,
+                              "originalIdentifier": "customField2",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "closeOnSelection": false,
+                              "convertToISO": false,
+                              "dateFormat": "YYYY-MM-DD",
+                              "isDisabled": false,
+                              "isRequired": true,
+                              "isVisible": true,
+                              "label": "Date",
+                              "maxDate": "2121-12-31T18:29:00.000Z",
+                              "minDate": "1920-12-31T18:30:00.000Z",
+                              "shortcuts": false,
+                              "timePrecision": "None",
+                              "labelTextSize": "0.875rem"
                             }
                           },
                           "dataType": "object",
@@ -3010,6 +3036,12 @@
                         },
                         {
                           "key": "schema.__root_schema__.children.customField1.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.customField2.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.customField2.borderRadius"
                         }
                       ],
                       "sourceData": "{\n\t\"partner_id\": {{appsmith.store.login_data.partner_id}},\n\t\"ref\": \"\",\n\t\"narration\": \"\",\n\t\"invoice_line_ids\": [\n\t\t{\n\t\t\t\"name\": \"\",\n\t\t\t\"quantity\": 1,\n\t\t\t\"price_unit\": 0,\n\t\t\t\"price_subtotal\": 0,\n\t\t\t\"vat_included\": false\n\t\t}\n\t]\n}",
