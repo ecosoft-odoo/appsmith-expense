@@ -1295,7 +1295,7 @@
                               "text": "{{[currentItem.ref, currentItem.narration].join(\": \")}}",
                               "key": "mked3omudy",
                               "isDeprecated": false,
-                              "rightColumn": 32,
+                              "rightColumn": 52,
                               "textAlign": "LEFT",
                               "widgetId": "cv8mdx6s7z",
                               "logBlackList": {
